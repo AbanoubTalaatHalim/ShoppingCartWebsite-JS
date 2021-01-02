@@ -1,0 +1,54 @@
+[
+   {
+        "name":     "Grey T-shirt",
+        "tag":      "grey",
+        "price":    20,
+        "inCart":   0
+    },
+
+   {
+        "name":   "Red T-shirt",
+        "tag":   "red",
+        "price":  30,
+        "inCart": 0
+    },
+   {
+        "name":   "WhitexBlack T-shirt",
+        "tag":    "whitexblack",
+        "price":  25,
+        "inCart": 0
+    },
+   {
+        "name":   "Black T-shirt",
+        "tag":   "black",
+        "price":  50,
+        "inCart": 0
+    },
+   {
+        "name":   "Yellow T-shirt",
+        "tag":   "yellow",
+        
+        "price":  40,
+        "inCart": 0
+    },
+   
+   {
+        "name":   "Green T-shirt",
+        "tag":   "green",
+         "price":  49,
+        "inCart": 0
+    },
+   
+   {
+        "name": "Logo T-shirt",
+        "tag" : "logo",
+        "price": 80,
+        "inCart": 0
+     },
+   {
+        "name": "Mac T-shirt",
+        "tag" : "mac",
+        "price": 75,
+        "inCart": 0
+     }
+]

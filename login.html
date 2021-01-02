@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css"> 
+
+    <script src="js/login.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <div class="overlay">
+            <nav>
+                <h2>SHOP</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                    <li><a href="contactUs.html">Contact Us</a></li>
+                    <li><a id="loginlink" href="login.html">Login</a></li>
+                    
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-sm-5 col-sm-offset-1 mb-sm-40">
+          <h4 class="font-alt">Login</h4>
+          <hr class="divider-w mb-10">
+          <form class="form" name="loginForm">
+            <div class="form-group">
+              <input required class="form-control" id="username" name="usr" type="text" placeholder="username"/>
+            </div>
+            <div class="form-group">
+              <input required class="form-control" id="password" name="pwd" type="password" placeholder="password"/>
+            </div>
+            <div class="form-group">
+            <a href="/register.html">Don't have account register here !</a>
+            </div>
+          </form>
+          <button class="btn btn-dark btn-round btn-b" onclick="login();" >Login</button>
+          </div>
+        </div>    
+    </div>    
+    
+    <script src="js/auth.js"></script>
+
+        <script src="js/jquery-3.5.1.min.js" ></script>
+        <script src="js/jquery-3.5.1.js" ></script>
+        <script src="js/popper.min.js" ></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+</body>
+</html>

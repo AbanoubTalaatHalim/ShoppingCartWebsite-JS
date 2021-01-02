@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+
+    <script src="js/jquery-3.5.1.js" ></script>
+
+    <script src="js/jquery-3.5.1.min.js" ></script>
+    
+    <script type='text/javascript'>
+        if (sessionStorage.getItem('AuthenticationState') === null) {
+        window.open("AccessDenied.html", "_self");
+     }      
+     </script>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css"> 
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <header>
+        <div class="overlay">
+            <nav>
+                <h2>SHOP</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                    <li><a href="contactUs.html">Contact Us</a></li>
+                    <li class="cart">
+                        <a id="cartlink" href="cart.html">
+                            <i class="fas fa-cart-plus"></i>Cart<span>0</span>
+                        </a>
+                    </li>
+                    <li><a id="loginlink" href="login.html">Login</a></li>
+                    <li><a id="logoutlink" onclick="logout()" style="display: none; cursor: pointer;">Logout</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        
+    
+    </div>
+    
+   
+<script src="js/fetchData.js"></script>
+<script    src="js/main.js"></script>
+       
+        <script src="js/popper.min.js" ></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+</body>
+</html>
